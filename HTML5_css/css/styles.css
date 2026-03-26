@@ -49,11 +49,29 @@ main h2 {
     text-align: center;
 }
 
+hr {
+    border-color: #264653;
+    background-color: #264653;
+}
+
 main img {
     display: block;
     margin: 20px auto;
     width: 600px;
     border-radius: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    list-style-position: inside;
+}
+
+a {
+    color: #264653;
 }
 
 footer {
