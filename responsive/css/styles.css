@@ -61,7 +61,7 @@ main {
 }
 
 .main_content {
-    padding: 10pxS;
+    padding: 10px;
 }
 
 .col {
@@ -144,7 +144,7 @@ hr {
     }
 
     footer {
-        padding: auto;
+        margin: auto;
     }
 
 }
