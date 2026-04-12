@@ -1,0 +1,150 @@
+/* Global Styles */
+
+body {
+    background-color: #6a040f;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+a {
+    color: #03071e;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+
+#container {
+    padding: 10px;
+    border: 2px solid #03071e;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #e85d04;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: #dc2f02;
+}
+
+main {
+    padding: 10px;
+    margin: 10px;
+}
+
+.main_content {
+    padding: 10pxS;
+}
+
+.col {
+    margin: 10px 0;
+}
+
+.col img {
+    border-radius: 10px;
+    border: 2px solid #e85d04;
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+}
+
+.main_content {
+    text-align: center;
+}
+
+hr {
+    border-color: #e85d04;
+    background-color: #e85d04;
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+
+    nav {
+        padding: 10px 0;
+        border-bottom: 4px solid #03071e;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        display: inline-block;
+        height: 40px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+
+    #container {
+        width: 80%;
+        margin: 20px auto;
+        background-color: #ffba08;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 200px); 
+        gap: 15px;
+        padding: 10px 0;
+    }
+
+    .gallery img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .col {
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .col img {
+        width: 100%;
+    }
+
+    footer {
+        padding: auto;
+    }
+
+}
