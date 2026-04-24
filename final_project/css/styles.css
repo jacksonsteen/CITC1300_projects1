@@ -148,7 +148,7 @@ main {
 }
 
 video {
-        width: 360; height: 240;
+        width: 360px; height: 240px;
 }
 
 /* Tablet Styles */
@@ -156,7 +156,7 @@ video {
 @media (min-width: 768px) {
 
     video {
-        width: 360; height: 240;
+        width: 360px; height: 240px;
     }
 
     nav {
@@ -182,7 +182,7 @@ video {
 @media (min-width: 1024px) {
 
     video {
-        width: 600; height: 450;
+        width: 600px; height: 450px;
     }
 
     #container {
