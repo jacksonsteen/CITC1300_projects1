@@ -147,9 +147,17 @@ main {
     text-shadow: 2px 2px 0px #240046;
 }
 
+video {
+        width: 360; height: 240;
+}
+
 /* Tablet Styles */
 
 @media (min-width: 768px) {
+
+    video {
+        width: 360; height: 240;
+    }
 
     nav {
         padding: 10px 0;
@@ -172,6 +180,10 @@ main {
 /* Desktop Styles */
 
 @media (min-width: 1024px) {
+
+    video {
+        width: 600; height: 450;
+    }
 
     #container {
         width: 80%;
